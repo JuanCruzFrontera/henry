@@ -1,0 +1,41 @@
+/* Reinicio CSS */
+* {
+    margin: 0; /* Eliminar margen */
+    padding: 0; /* Eliminar relleno */
+    box-sizing: border-box; /* Establecer box-sizing a border-box */
+}
+
+html, body {
+    width: 100%; /* Establecer ancho al 100% */
+    height: 100%; /* Establecer altura al 100% */
+    font-size: 100%; /* Establecer tamaño de fuente al 100% */
+    font-family: sans-serif; /* Establecer familia de fuentes a sans-serif */
+}
+
+img, picture, video, canvas, svg {
+    display: block; /* Mostrar como bloque */
+    max-width: 100%; /* Establecer ancho máximo al 100% */
+}
+
+button, input, select, textarea {
+    font: inherit; /* Heredar fuente */
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    outline: none; /* Sin contorno */
+}
+
+a {
+    color: inherit; /* Heredar color */
+    text-decoration: none; /* Sin decoración de texto */
+}
+
+ul, ol {
+    list-style: none; /* Sin estilo de lista */
+}
+
+table {
+    width: 100%; /* Establecer ancho al 100% */
+    border-collapse: collapse; /* Colapsar bordes */
+    border-spacing: 0; /* Sin espaciado entre bordes */
+}
+
